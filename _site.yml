@@ -1,0 +1,29 @@
+name: "david-kang"
+output_dir: "docs"
+navbar:
+  title: "David Kang"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Projects"
+      href: projects.html
+  right:
+    - text: ""
+      icon: fa-github
+      href: https://github.com/dhk262
+    - text: ""
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/dhk262/
+    - text: ""
+      icon: fa-envelope
+      href: mailto:david.kang@emory.edu
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      in_header: header.html
+    css: styles.css
+    self_contained: false

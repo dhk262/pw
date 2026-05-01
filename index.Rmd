@@ -1,0 +1,46 @@
+---
+title: "David Kang"
+output:
+  html_document:
+    toc: false
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-photo">
+    <img src="images/headshot.jpg" alt="David Kang" />
+  </div>
+  <div class="hero-text">
+    <h1>Hi, I'm David.</h1>
+    <p class="lead">I'm a Master of Public Health candidate in Epidemiology at the Rollins School of Public Health at Emory University, where I'm also pursuing a Certificate in Data Science.</p>
+    <p>My work focuses on using quantitative methods to understand nutrition, maternal and child health, and health disparities in low- and middle-income settings. I have hands-on experience with R and SAS, survey-based research, and translating data into findings for diverse audiences.</p>
+    <p>Originally from Georgia, I earned my B.S. in Biology at the University of Georgia before coming to Rollins. Outside of public health, I coach soccer, coordinate AV media at my church, and am always looking for the next good cup of coffee in Atlanta.</p>
+    <div class="hero-links">
+      <a href="cv.html" class="btn-primary">View my CV</a>
+      <a href="projects.html" class="btn-secondary">See my projects</a>
+    </div>
+  </div>
+</div>
+
+<div class="info-cards">
+  <div class="info-card">
+    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+    <p><strong>MPH, Epidemiology</strong><br/>
+    Rollins School of Public Health, Emory University<br/>
+    <em>Expected August 2026</em></p>
+    <p><strong>B.S., Biology</strong><br/>
+    University of Georgia<br/>
+    <em>December 2022</em></p>
+  </div>
+
+  <div class="info-card">
+    <h3><i class="fas fa-chart-line"></i> Skills</h3>
+    <p>Statistical programming in R and SAS, survey design and data collection, quantitative analysis, evidence synthesis, and clear scientific communication for technical and general audiences.</p>
+  </div>
+
+  <div class="info-card">
+    <h3><i class="fas fa-globe-africa"></i> Interests</h3>
+    <p>Global maternal and child nutrition, health equity, food security in drought-affected settings, and applied epidemiology in resource-limited environments.</p>
+  </div>
+</div>
+```
