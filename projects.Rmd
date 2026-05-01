@@ -7,7 +7,7 @@ output:
 
 ```{=html}
 <div class="projects-intro">
-  <p class="lead">A selection of graduate-level work from my time at the Rollins School of Public Health. Both projects below are part of my Spring 2026 capstone with the Rollins CARE Team, supporting CARE's DREAMS project in southern Malawi.</p>
+  <p class="lead">A selection of graduate-level work from my time at the Rollins School of Public Health. Both projects below stem from my Spring 2026 capstone with the Rollins CARE Team, supporting CARE's DREAMS project in southern Malawi.</p>
 </div>
 
 <div class="project-card">
@@ -24,31 +24,32 @@ output:
 
   <p><strong>Key finding:</strong> Dietary diversity improved meaningfully across all three districts. Women at endline were roughly twice as likely to meet MDD-W (adjusted PR 2.01, 95% CI 1.67&ndash;2.41), and children were about 3.5 times as likely to meet child MDD (adjusted PR 3.51, 95% CI 2.56&ndash;4.81). Because the study had no control group, results are interpreted as associations rather than causal effects.</p>
 
-  <p><strong>Skills used:</strong> R, prevalence ratio modeling, survey data analysis, repeated cross-sectional design, scientific poster design.</p>
+  <p><strong>Skills used:</strong> R, prevalence ratio modeling, survey data analysis, repeated cross-sectional design, scientific poster design, evidence synthesis.</p>
 
   <div class="project-links">
-    <a href="https://github.com/dhk262/pw" class="project-btn"><i class="fab fa-github"></i> Project Repository</a>
+    <a href="https://github.com/dhk262/captsone" class="project-btn"><i class="fab fa-github"></i> Project Repository</a>
   </div>
 </div>
 
 <div class="project-card">
   <div class="project-header">
-    <h2>Food Access and Nutrition in Eastern Africa: A Literature Review</h2>
-    <span class="project-tag">Evidence Synthesis</span>
+    <h2>DREAMS Malawi Baseline: Interactive Hunger &amp; Diet Diversity Dashboard</h2>
+    <span class="project-tag">Data Visualization</span>
   </div>
 
-  <p class="project-meta"><i class="fas fa-calendar"></i> Spring 2026 &nbsp;|&nbsp; <i class="fas fa-book"></i> Individual deliverable, Rollins CARE Capstone</p>
+  <p class="project-meta"><i class="fas fa-calendar"></i> Spring 2026 &nbsp;|&nbsp; <i class="fas fa-chart-bar"></i> R flexdashboard with Plotly &amp; Leaflet</p>
 
-  <p>To ground the DREAMS analysis in existing evidence, I conducted an individual literature review on the relationship between access to nutrient-rich foods and nutritional outcomes for women of reproductive age and children under five in Eastern Africa. I designed a PubMed search strategy focused on studies published from 2021 onward, covering dietary diversity, the Minimum Acceptable Diet (MAD), micronutrient intake, anemia, and maternal undernutrition (BMI and MUAC).</p>
+  <p>Building on the DREAMS capstone, I designed an interactive dashboard to make the baseline survey data accessible to program staff and non-technical decision-makers. The dashboard visualizes household hunger and dietary diversity for 661 households surveyed across Chiradzulu, Phalombe, and Thyolo districts in October 2024, helping users quickly see where hunger is most severe and whether it tracks with poorer diet quality.</p>
 
-  <p>The final review synthesized 10 studies from Ethiopia, Uganda, Tanzania, and East Africa more broadly, including systematic reviews and meta-analyses, a birth cohort, and community-based cross-sectional studies. I organized findings thematically (child nutrition and feeding, maternal diet quality, anemia) and produced a structured evidence summary table noting design, exposure, outcomes, and limitations for each study.</p>
+  <p>The dashboard answers two questions. First, <em>where is hunger most severe?</em> A district-level Leaflet map paired with a ranked dot plot compares three hunger indicators (no food in household, went to bed hungry, and went without food day and night) across districts. Second, <em>is diet diversity lower in households reporting hunger?</em> An interactive Plotly box plot compares food-group consumption between households that did and did not report someone going to bed hungry, with a dropdown to switch between women of reproductive age and children 6&ndash;23 months.</p>
 
-  <p><strong>Key takeaway:</strong> The literature consistently links wider dietary diversity to better nutritional status in both children and women, but most evidence is observational and cross-sectional, and very little is specific to Malawi or to integrated programs like DREAMS. This gap is exactly what the DREAMS analysis was designed to help address.</p>
+  <p><strong>Why it matters:</strong> Targeting food security interventions in resource-limited settings depends on knowing where need is concentrated and which households are most at risk. By making the baseline data interactive and explorable, the dashboard turns a static dataset into a tool program staff can actually use to prioritize action.</p>
 
-  <p><strong>Skills used:</strong> Systematic literature search, evidence synthesis, scientific writing, public health research methods.</p>
+  <p><strong>Skills used:</strong> R, flexdashboard, Plotly, Leaflet, data wrangling with dplyr, dashboard design, communicating quantitative findings to non-technical audiences.</p>
 
   <div class="project-links">
-    <a href="https://github.com/dhk262/pw" class="project-btn"><i class="fab fa-github"></i> Project Repository</a>
+    <a href="https://dhk262.github.io/fd4a/dashboard_final.html" class="project-btn"><i class="fas fa-external-link-alt"></i> Live Dashboard</a>
+    <a href="https://github.com/dhk262/fd4a" class="project-btn"><i class="fab fa-github"></i> Project Repository</a>
   </div>
 </div>
 ```

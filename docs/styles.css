@@ -238,6 +238,9 @@ a:hover {
 }
 .project-links {
   margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
 }
 .project-btn {
   display: inline-block;
